@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/catalog"
+            android:checked="false"
+            android:icon="@drawable/icon_catalog"
+            android:title="@string/Catalog" />
+
+        <item
+            android:id="@+id/expense"
+            android:checked="false"
+            android:icon="@drawable/footer_icon_expense_deselected"
+            android:title="@string/Expenses" />
+
+        <item
+            android:id="@+id/claims"
+            android:checked="false"
+            android:icon="@drawable/image_place_holder"
+            android:title="@string/Claims" />
+
+        <item
+            android:id="@+id/logout"
+            android:checked="false"
+            android:icon="@drawable/icon_logout"
+            android:title="@string/Logout" />
+
+
+
+    </group>
+</menu>

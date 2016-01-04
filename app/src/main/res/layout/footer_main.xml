@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray69"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/Linear1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimaryDark"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <Button
+            android:id="@+id/FooterButtonHome"
+            style="@style/FooterFontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:drawablePadding="@dimen/footer_button_label_padding"
+            android:drawableTop="@drawable/selector_footer_home"
+            android:text="HOME"
+            android:textColor="@color/selector_footer_text_color" />
+
+
+
+        <Button
+            android:id="@+id/FooterButtonCustomer"
+            style="@style/FooterFontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:drawablePadding="@dimen/footer_button_label_padding"
+            android:drawableTop="@drawable/selector_footer_customer"
+            android:text="Customer"
+            android:textColor="@color/selector_footer_text_color" />
+
+        <Button
+            android:id="@+id/FooterButtonInbox"
+            style="@style/FooterFontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:drawablePadding="@dimen/footer_button_label_padding"
+            android:drawableTop="@drawable/selector_footer_inbox"
+            android:text="Inbox"
+            android:textColor="@color/selector_footer_text_color" />
+
+
+
+        <Button
+            android:id="@+id/FooterButtonBeat"
+            style="@style/FooterFontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:drawablePadding="@dimen/footer_button_label_padding"
+            android:drawableTop="@drawable/selector_footer_beats"
+            android:text="Beats"
+            android:textColor="@color/selector_footer_text_color" />
+
+    </LinearLayout>
+</LinearLayout>
+

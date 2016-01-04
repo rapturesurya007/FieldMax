@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">FieldMaxV2</string>
+    <string name="action_search">Search</string>
+    <string name="action_notification">Notification</string>
+    <string name="search_hint">Search.....</string>
+    <string name="field_max_map_key">AIzaSyALcjOLQ8UtRuU8PJqQ4c50ZDmWoKpP6pI</string>
+    <string-array name="BeatDays">
+        <item>BEAT DAYS</item>
+        <item>MONDAY</item>
+        <item>TUESDAY</item>
+        <item>WEDNESDAY</item>
+        <item>THURSDAY</item>
+        <item>FRIDAY</item>
+
+    </string-array>
+
+    <string-array name="SKU">
+        <item>500gm</item>
+        <item>1KG</item>
+        <item>2KG</item>
+        <item>5KG</item>
+        <item>10KG</item>
+        <item>50KG</item>
+
+    </string-array>
+
+    <string-array name="ChartType">
+        <item>ChartType</item>
+        <item>PieChart</item>
+        <item>LineChart</item>
+        <item>BarChart</item>
+
+
+    </string-array>
+
+    <string-array name="PaymentMode">
+        <item>Select the Payment Mode</item>
+        <item>CashMode</item>
+        <item>ChequeMode</item>
+        <item>DemandDraftMode</item>
+    </string-array>
+    
+    <string name="Catalog">CATALOG</string>
+    <string name="Expenses">EXPENSES</string>
+    <string name="Claims">CLAIMS</string>
+    <string name="Logout">LOGOUT</string>
+
+
+
+    <string name="open_drawer">OPEN DRAWER</string>
+    <string name="close_drawer">CLOSE DRAWER</string>
+
+</resources>

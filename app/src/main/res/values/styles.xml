@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/PrimaryColor</item>
+        <item name="android:colorPrimaryDark">@color/PrimaryDarkColor</item>
+        <item name="android:statusBarColor">@color/PrimaryColor</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/PrimaryColor</item>
+        <item name="android:colorPrimaryDark">@color/PrimaryDarkColor</item>
+        <item name="android:statusBarColor">@color/PrimaryColor</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+
+
+
+    <style name="FooterFontStyle">
+        <item name="android:textColor">#8d8d8d</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="fontType">Raleway_Regular</item>
+    </style>
+
+    <style name="splash_text">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="LoginTextLabel">
+        <item name="android:textColorHint">#000000</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">#000000</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextLabel">
+        <item name="android:textColorHint">@color/light_gray</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">#000000</item>
+        <item name="android:textSize">18sp</item>
+
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:background">@color/PrimaryDarkColor</item>
+        <item name="android:textColor">#000000</item>
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+
+    </style>
+
+
+    <style name="TitleBarTextColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">#000000</item>
+
+    </style>
+
+    <style name="DashBoardText">
+        <item name="fontType">Raleway_Regular</item>
+    </style>
+
+    <style name="DashBoardText1">
+        <item name="fontType">Fabrica</item>
+    </style>
+    <style name="DashBoardTittleText">
+        <item name="fontType">Roboto_Regular</item>
+    </style>
+
+
+</resources>
