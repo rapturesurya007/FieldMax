@@ -3,20 +3,15 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:layout_alignParentBottom="true"
-        layout="@layout/footer_main"/>
 
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="20dp">
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginRight="@dimen/margin_10dp"
+        android:layout_marginTop="@dimen/margin_20dp">
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/expenseDateLayout"
@@ -30,8 +25,8 @@
                 android:id="@+id/expenseDate"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:hint="Expense Date"
-                android:textSize="14sp"
+                android:hint="@string/expenseDate"
+                android:textSize="@dimen/textSize_14sp"
                />
         </android.support.design.widget.TextInputLayout>
 
@@ -40,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/margin_10dp"
             android:theme="@style/TextLabel">
 
 
@@ -49,8 +44,8 @@
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:inputType="number"
-                android:hint="Petrol Expense "
-                android:textSize="14sp"
+                android:hint="@string/petrolExpense"
+                android:textSize="@dimen/textSize_14sp"
                 />
         </android.support.design.widget.TextInputLayout>
 
@@ -59,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/margin_10dp"
             android:theme="@style/TextLabel">
 
 
@@ -68,8 +63,8 @@
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:inputType="number"
-                android:hint="Food Expense "
-                android:textSize="14sp"
+                android:hint="@string/foodExpense"
+                android:textSize="@dimen/textSize_14sp"
                 />
         </android.support.design.widget.TextInputLayout>
 
@@ -79,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/margin_10dp"
             android:theme="@style/TextLabel">
 
 
@@ -88,8 +83,8 @@
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:inputType="number"
-                android:hint="Mobile Expense "
-                android:textSize="14sp"
+                android:hint="@string/mobileExpense"
+                android:textSize="@dimen/textSize_14sp"
                 />
         </android.support.design.widget.TextInputLayout>
 
@@ -99,8 +94,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-
+            android:layout_marginTop="@dimen/margin_10dp"
             android:theme="@style/TextLabel">
 
 
@@ -109,8 +103,8 @@
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:inputType="number"
-                android:hint="Other Expense "
-                android:textSize="14sp"
+                android:hint="@string/otherExpense"
+                android:textSize="@dimen/textSize_14sp"
                 />
         </android.support.design.widget.TextInputLayout>
 
@@ -120,7 +114,7 @@
             android:id="@+id/expenseDescription"
             android:layout_width="300dp"
             android:layout_height="60dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/margin_10dp"
             android:layout_gravity="center"
             android:inputType="textCapCharacters|textNoSuggestions|textFilter"
             android:hint="Write your other expense description details"
@@ -133,9 +127,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_10dp"
             android:layout_gravity="center"
             android:weightSum="1"
             android:orientation="horizontal">
@@ -146,10 +140,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.75"
-            android:text="Your Total Expense "
-            android:layout_marginLeft="10dp"
-            android:textColor="#000000"
-            android:textSize="18sp"
+            android:text="@string/totalExpenseText"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:textColor="@color/PrimaryColor"
+            android:textSize="@dimen/textSize_18sp"
          />
 
             <TextView
@@ -157,9 +151,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
-               android:layout_marginRight="10dp"
-                android:textColor="#000000"
-                android:textSize="18sp"
+               android:layout_marginRight="@dimen/margin_10dp"
+                android:textColor="@color/PrimaryDarkColor"
+                android:textSize="@dimen/textSize_18sp"
                 />
 
 
@@ -170,11 +164,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="Get Total Expense"/>
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:text="@string/totalExpenseButtonText"
+            android:background="@color/PrimaryColor"
+            android:textColor="@color/ColorPrimary"/>
 
 
     </LinearLayout>
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        layout="@layout/footer_main"/>
+
 
 
 </RelativeLayout>

@@ -8,15 +8,15 @@
         android:id="@+id/brandName"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
+        android:textSize="@dimen/textSize_18sp"
         android:textColor="@color/deepGray"
-        android:text="BrandName"
+        android:text="@string/brandName"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="@dimen/margin_20dp"/>
 
     <ListView
         android:id="@+id/listView"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="@dimen/margin_10dp"
         style="@style/DashBoardText"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"

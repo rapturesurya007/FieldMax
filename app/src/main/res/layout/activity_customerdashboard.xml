@@ -28,9 +28,9 @@
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_marginTop="@dimen/margin_40dp"
                     android:orientation="horizontal"
                     android:weightSum="1">
 
@@ -47,7 +47,7 @@
                         <ImageView
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="@dimen/margin_10dp"
                             android:src="@drawable/dashboard_icon_saleorder" />
 
                         <com.fieldmax.android.fieldmaxv2.view.FieldMaxTextView
@@ -55,18 +55,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginBottom="10dp"
-                            android:layout_marginTop="10dp"
-                            android:text="Sales Order"
+                            android:layout_marginBottom="@dimen/margin_10dp"
+                            android:layout_marginTop="@dimen/margin_10dp"
+                            android:text="@string/salesOrder"
                             android:textColor="@color/textColorPrimary"
-                            android:textSize="20sp" />
+                            android:textSize="@dimen/textSize_20sp" />
 
                     </LinearLayout>
 
                     <View
                         android:layout_width="1dp"
                         android:layout_height="fill_parent"
-                        android:layout_marginLeft="5dp"
+                        android:layout_marginLeft="@dimen/margin_5dp"
                         android:layout_weight="0.001" />
 
 
@@ -81,7 +81,7 @@
                         <ImageView
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="@dimen/margin_10dp"
                             android:src="@drawable/dashboard_icon_payment" />
 
                         <com.fieldmax.android.fieldmaxv2.view.FieldMaxTextView
@@ -89,11 +89,11 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginBottom="10dp"
-                            android:layout_marginTop="10dp"
-                            android:text="Payment"
+                            android:layout_marginBottom="@dimen/margin_10dp"
+                            android:layout_marginTop="@dimen/margin_10dp"
+                            android:text="@string/payment"
                             android:textColor="@color/textColorPrimary"
-                            android:textSize="20sp" />
+                            android:textSize="@dimen/textSize_20sp" />
 
                     </LinearLayout>
 
@@ -108,9 +108,8 @@
 
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-
-                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
                     android:orientation="horizontal"
                     android:weightSum="1">
 
@@ -118,7 +117,7 @@
                         android:id="@+id/pocketMISLayout"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="@dimen/margin_5dp"
                         android:layout_weight="0.499"
                         android:background="@drawable/rectangle_grey"
                         android:orientation="vertical">
@@ -126,7 +125,7 @@
                         <ImageView
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="@dimen/margin_10dp"
                             android:src="@drawable/dashboard_icon_pocketmis" />
 
                         <com.fieldmax.android.fieldmaxv2.view.FieldMaxTextView
@@ -134,9 +133,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginBottom="10dp"
+                            android:layout_marginBottom="@dimen/margin_10dp"
                             android:layout_marginTop="10dp"
-                            android:text=" Pocket MIS"
+                            android:text="@string/pocketMIS"
                             android:textColor="@color/textColorPrimary"
                             android:textSize="20sp" />
 
@@ -145,7 +144,7 @@
                     <View
                         android:layout_width="1dp"
                         android:layout_height="fill_parent"
-                        android:layout_marginLeft="5dp"
+                        android:layout_marginLeft="@dimen/margin_5dp"
                         android:layout_weight="0.001" />
 
 
@@ -153,7 +152,7 @@
                         android:id="@+id/competitorsLayout"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="@dimen/margin_5dp"
                         android:layout_weight="0.499"
                         android:background="@drawable/rectangle_grey"
                         android:orientation="vertical">
@@ -161,7 +160,7 @@
                         <ImageView
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="@dimen/margin_10dp"
                             android:src="@drawable/dashboard_icon_competitors" />
 
                         <com.fieldmax.android.fieldmaxv2.view.FieldMaxTextView
@@ -169,11 +168,11 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginBottom="10dp"
-                            android:layout_marginTop="10dp"
-                            android:text="Competitors"
+                            android:layout_marginBottom="@dimen/margin_10dp"
+                            android:layout_marginTop="@dimen/margin_10dp"
+                            android:text="@string/competitors"
                             android:textColor="@color/textColorPrimary"
-                            android:textSize="20sp" />
+                            android:textSize="@dimen/textSize_20sp" />
 
                     </LinearLayout>
 
@@ -188,8 +187,8 @@
 
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
                     android:orientation="horizontal"
                     android:weightSum="1">
 
@@ -198,7 +197,7 @@
                         android:id="@+id/enquiryLayout"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="@dimen/margin_5dp"
                         android:layout_weight="0.499"
                         android:background="@drawable/rectangle_grey"
                         android:orientation="vertical">
@@ -206,7 +205,7 @@
                         <ImageView
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="@dimen/margin_10dp"
                             android:src="@drawable/dashboard_icon_enquiry" />
 
                         <com.fieldmax.android.fieldmaxv2.view.FieldMaxTextView
@@ -214,18 +213,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginBottom="10dp"
-                            android:layout_marginTop="10dp"
-                            android:text="Enquiry"
+                            android:layout_marginBottom="@dimen/margin_10dp"
+                            android:layout_marginTop="@dimen/margin_10dp"
+                            android:text="@string/enquiry"
                             android:textColor="@color/textColorPrimary"
-                            android:textSize="20sp" />
+                            android:textSize="@dimen/textSize_20sp" />
 
                     </LinearLayout>
 
                     <View
                         android:layout_width="1dp"
                         android:layout_height="fill_parent"
-                        android:layout_marginLeft="5dp"
+                        android:layout_marginLeft="@dimen/margin_5dp"
                         android:layout_weight="0.001" />
 
 
@@ -233,7 +232,7 @@
                         android:id="@+id/complaintsLayout"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="@dimen/margin_5dp"
                         android:layout_weight="0.499"
                         android:background="@drawable/rectangle_grey"
                         android:orientation="vertical">
@@ -241,7 +240,7 @@
                         <ImageView
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="@dimen/margin_10dp"
                             android:src="@drawable/dashboard_icon_complain" />
 
                         <com.fieldmax.android.fieldmaxv2.view.FieldMaxTextView
@@ -249,11 +248,11 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginBottom="10dp"
-                            android:layout_marginTop="10dp"
-                            android:text=" Complaints"
+                            android:layout_marginBottom="@dimen/margin_10dp"
+                            android:layout_marginTop="@dimen/margin_10dp"
+                            android:text="@string/complaints"
                             android:textColor="@color/textColorPrimary"
-                            android:textSize="20sp" />
+                            android:textSize="@dimen/textSize_20sp" />
 
                     </LinearLayout>
                 </LinearLayout>

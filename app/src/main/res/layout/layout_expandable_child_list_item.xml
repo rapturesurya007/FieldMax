@@ -9,9 +9,9 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:background="@color/ColorPrimary"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginBottom="@dimen/margin_10dp"
         android:weightSum="1">
 
         <ImageView
@@ -27,9 +27,9 @@
             android:layout_height="wrap_content"
             android:textAllCaps="true"
             android:layout_weight="0.25"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="@dimen/margin_5dp"
             android:layout_gravity="center"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize_14sp" />
 
         <TextView
             android:id="@+id/brandSKU"
@@ -37,9 +37,9 @@
             android:layout_height="wrap_content"
             android:textAllCaps="true"
             android:layout_weight="0.15"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="@dimen/margin_10dp"
             android:layout_gravity="center"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize_14sp" />
 
 
         <TextView
@@ -48,9 +48,9 @@
             android:layout_height="wrap_content"
             android:textAllCaps="true"
             android:layout_weight="0.15"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="@dimen/margin_5dp"
             android:layout_gravity="center"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize_14sp" />
 
         <TextView
             android:id="@+id/brandRetailerPrice"
@@ -58,9 +58,9 @@
             android:layout_height="wrap_content"
             android:textAllCaps="true"
             android:layout_weight="0.15"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="@dimen/margin_5dp"
             android:layout_gravity="center"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize_14sp" />
 
 
 
@@ -72,8 +72,8 @@
             android:maxLines="1"
             android:background="@drawable/rectangular_box"
             android:singleLine="true"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginLeft="@dimen/margin_5dp"
+            android:layout_marginRight="@dimen/margin_10dp"
             android:layout_gravity="center"
             android:inputType="number|textNoSuggestions"
            />

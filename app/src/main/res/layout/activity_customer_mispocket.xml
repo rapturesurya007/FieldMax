@@ -14,10 +14,10 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_10dp"
             android:orientation="horizontal"
             android:weightSum="1">
 
@@ -26,8 +26,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.40"
-                android:text="Enter the Order Number"
-                android:textSize="18sp" />
+                android:text="@string/orderNumber"
+                android:textSize="@dimen/textSize_18sp" />
 
             <EditText
                 android:layout_width="0dp"
@@ -37,16 +37,16 @@
                 android:inputType="textNoSuggestions|textFilter|textCapCharacters"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:textSize="18sp" />
+                android:textSize="@dimen/textSize_18sp" />
 
             <Button
                 android:id="@+id/searchOrder"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="@dimen/margin_5dp"
                 android:layout_weight="0.30"
-                android:text="SEARCH" />
+                android:text="@string/search" />
         </LinearLayout>
 
         <ScrollView
@@ -57,9 +57,9 @@
                 android:id="@+id/parentLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="@dimen/margin_5dp"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:layout_marginBottom="@dimen/margin_5dp"
                 android:orientation="vertical" />
         </ScrollView>
     </LinearLayout>

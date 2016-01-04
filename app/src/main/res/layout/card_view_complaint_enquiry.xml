@@ -14,15 +14,15 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:hint="Write Yout Enquiry Here"
+            android:hint="@string/enquiryText"
             android:background="@drawable/rectangular_box"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/margin_10dp"
             android:gravity="left|top"
             android:focusableInTouchMode="true"
             android:layout_weight="0.95"
             android:inputType="textMultiLine|textCapCharacters|textNoSuggestions|textFilter"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp" />
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:layout_marginLeft="@dimen/margin_10dp" />
 
 
         <Button
@@ -30,7 +30,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="Submit" />
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:text="@string/submit"
+            android:background="@color/PrimaryColor"
+            android:textColor="@color/ColorPrimary"/>
     </LinearLayout>
 </LinearLayout>

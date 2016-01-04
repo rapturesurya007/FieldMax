@@ -16,33 +16,31 @@
 
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            android:text="OrderDate -"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:text="@string/orderDate"
             android:textColor="@color/gray69"
             android:layout_weight="0.25"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize_14sp" />
 
         <TextView
             android:id="@+id/orderDate"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:layout_marginLeft="@dimen/margin_10dp"
             android:layout_weight="0.75"
-            android:text="OrderDate"
             android:textColor="@color/deepGray"
-
-            android:textSize="14sp" />
+            android:textSize="@dimen/textSize_14sp" />
 
     </LinearLayout>
 
     <View
         android:layout_width="fill_parent"
         android:layout_height="1dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="@dimen/margin_5dp"
         android:background="@color/gray69" />
 
     <LinearLayout
@@ -57,7 +55,7 @@
             android:id="@+id/productImage"
             android:layout_width="30dp"
             android:layout_height="70dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/margin_10dp"
             android:layout_weight="0.25"
             android:src="@drawable/image_place_holder" />
 
@@ -65,15 +63,15 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/margin_10dp"
             android:layout_weight="0.75">
 
             <TextView
                 android:id="@+id/productName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Product Name"
-                android:textSize="16sp"
+                android:text="@string/productName"
+                android:textSize="@dimen/textSize_16sp"
                 android:textColor="@color/deepGray"
                 android:layout_gravity="center" />
 
@@ -82,7 +80,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="@dimen/margin_10dp"
                 android:weightSum="1">
 
                 <TextView
@@ -90,7 +88,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:text="DeliveryDate"
+                    android:text="@string/deliveryDate"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:textColor="@color/gray69" />
@@ -100,7 +98,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.24"
-                    android:text="Quantity"
+                    android:text="@string/quantityText"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:textColor="@color/gray69" />
@@ -110,19 +108,17 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.24"
-                    android:text="Price"
+                    android:text="@string/priceText"
                     android:gravity="center"
                     android:layout_gravity="center"
                     android:textColor="@color/gray69" />
             </LinearLayout>
 
 
-
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-
                 android:weightSum="1">
 
                 <TextView
@@ -130,7 +126,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:text="DeliveryDate"
+                    android:text="@string/deliveryDate"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:textColor="@color/deepGray" />
@@ -146,7 +142,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.24"
-                    android:text="Quantity"
+                    android:text="@string/quantity"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:textColor="@color/deepGray" />
@@ -163,7 +159,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.24"
-                    android:text="Price"
+                    android:text="@string/price"
                     android:gravity="center"
                     android:layout_gravity="center"
                     android:textColor="@color/deepGray" />

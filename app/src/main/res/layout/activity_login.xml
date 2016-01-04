@@ -32,8 +32,8 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginBottom="@dimen/margin_10dp"
                 android:weightSum="1">
 
                 <ImageView
@@ -47,14 +47,14 @@
                     android:id="@+id/usernameField"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:hint="Username"
+                    android:hint="@string/username"
                     android:layout_gravity="center"
                     android:layout_weight="0.75"
                     android:inputType="textNoSuggestions"
                     android:textColorHint="@color/light_gray"
                     android:background="@android:color/transparent"
                     android:textColor="@color/textColorPrimary"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/textSize_16sp" />
             </LinearLayout>
 
             <View
@@ -67,8 +67,8 @@
                 android:layout_height="wrap_content"
                 android:layout_width="fill_parent"
                 android:orientation="horizontal"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_10dp"
                 android:weightSum="1"
                 >
 
@@ -84,14 +84,14 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:cursorVisible="false"
-                    android:hint="Password"
+                    android:hint="@string/password"
                     android:inputType="number"
                     android:textColorHint="@color/light_gray"
                     android:textColor="@color/textColorPrimary"
                     android:layout_gravity="center"
                     android:background="@android:color/transparent"
                     android:layout_weight="0.75"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/textSize_16sp"
 
                     />
             </LinearLayout>
@@ -101,12 +101,12 @@
         <Button
             android:id="@+id/loginbutton"
             android:layout_width="250dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/margin_10dp"
             android:layout_height="wrap_content"
             android:background="@color/PrimaryColor"
             android:text="Login"
             android:layout_gravity="center"
-            android:textSize="18sp"
+            android:textSize="@dimen/textSize_18sp"
             android:textColor="@color/ColorPrimary" />
 
 
